@@ -1,9 +1,5 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <div>
+  <!-- <div>
     <a
       href="https://vitejs.dev"
       target="_blank"
@@ -24,9 +20,15 @@ import HelloWorld from './components/HelloWorld.vue'
         alt="Vue logo"
       >
     </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  </div> -->
+  <NavBar/>
 </template>
+
+<script setup>
+// import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './components/NavBar.vue'
+</script>
+
 
 <style scoped>
 .logo {
