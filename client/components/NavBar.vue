@@ -12,10 +12,14 @@ export default {
 }
 </script>
 
-<style scoped>
-.nav-conainer {
-  background-color: #4b6869;
+<style>
+.nav-container {
+  background: #4b6869;
   height: 3.5rem;
+  max-width: 672px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
 }
 .logo {
   font-family: "Amatic SC", cursive;
